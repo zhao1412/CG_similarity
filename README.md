@@ -16,7 +16,7 @@
 7. features文件夹
    * 说明：包含的./oceanlotus_cgvec.csv是graph2vec的输出文件，包含代码的CG向量。
 8. vec_simi_analysis.py
-   * 说明：分析向量间的相似性关系，输出为result.txt。分析算法见**算法使用**。使用方式见**脚本使用**。
+   * 说明：分析向量间的相似性关系，输出为result.txt。分析算法见**算法说明**。使用方式见**脚本使用**。
 
 # 算法说明
 
