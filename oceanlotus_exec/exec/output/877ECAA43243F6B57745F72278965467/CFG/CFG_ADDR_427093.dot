@@ -1,0 +1,7 @@
+DiGraph ?ComputeMinHWThreadsWithExternalThread@SchedulerProxy@details@Concurrency@@QBEIXZ{
+BB_427093->BB_4270a2
+BB_4270a2->BB_4270af
+BB_4270a2->BB_4270bb
+BB_4270af->BB_4270b6
+BB_4270b6->BB_4270bb
+}

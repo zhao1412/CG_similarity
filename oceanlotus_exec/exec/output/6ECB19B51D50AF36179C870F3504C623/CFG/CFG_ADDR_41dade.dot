@@ -1,0 +1,25 @@
+DiGraph ?__GetLogicalProcessorInformation@platform@details@Concurrency@@YAPAU_SYSTEM_LOGICAL_PROCESSOR_INFORMATION@@PAK@Z{
+BB_41dade->BB_41daf3
+BB_41daf3->BB_41dafb
+BB_41dafb->BB_41db00
+BB_41dafb->BB_41db08
+BB_41db00->BB_41db02
+BB_41db02->BB_41db06
+BB_41db02->BB_41db61
+BB_41db06->BB_41db59
+BB_41db08->BB_41db0f
+BB_41db0f->BB_41db16
+BB_41db0f->BB_41db3c
+BB_41db16->BB_41db2b
+BB_41db2b->BB_41db72
+BB_41db3c->BB_41db44
+BB_41db44->BB_41db48
+BB_41db44->BB_41db50
+BB_41db48->BB_41db4a
+BB_41db4a->BB_41db4e
+BB_41db4a->BB_41db61
+BB_41db4e->BB_41db59
+BB_41db59->BB_41db61
+BB_41db61->BB_41db6a
+BB_41db6a->BB_41db72
+}

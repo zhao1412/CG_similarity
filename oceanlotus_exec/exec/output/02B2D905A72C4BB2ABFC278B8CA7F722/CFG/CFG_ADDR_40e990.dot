@@ -1,0 +1,17 @@
+DiGraph __get_osfhandle{
+BB_40e990->BB_40e99d
+BB_40e990->BB_40e9b5
+BB_40e99d->BB_40e9a2
+BB_40e9a2->BB_40e9aa
+BB_40e9aa->BB_40e9b0
+BB_40e9b5->BB_40e9b9
+BB_40e9b5->BB_40e9c1
+BB_40e9b9->BB_40e9c1
+BB_40e9b9->BB_40e9db
+BB_40e9c1->BB_40e9c6
+BB_40e9c6->BB_40e9ce
+BB_40e9ce->BB_40e9d9
+BB_40e9d9->BB_40e9b0
+BB_40e9db->BB_40e9c1
+BB_40e9db->BB_40e9f4
+}

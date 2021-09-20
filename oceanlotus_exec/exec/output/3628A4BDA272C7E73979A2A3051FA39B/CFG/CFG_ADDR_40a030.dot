@@ -1,0 +1,6 @@
+DiGraph sub_40A030{
+BB_40a030->BB_40a03c
+BB_40a030->BB_40a0b3
+BB_40a03c->BB_40a0b3
+BB_40a0b3->BB_40a0c2
+}

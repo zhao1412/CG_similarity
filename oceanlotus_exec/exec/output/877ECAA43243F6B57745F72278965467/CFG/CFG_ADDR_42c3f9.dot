@@ -1,0 +1,8 @@
+DiGraph ?GetNextScheduleGroupSegment@SchedulingRing@details@Concurrency@@AAEPAVScheduleGroupSegmentBase@23@PAHHPAV?$ListArray@VScheduleGroupSegmentBase@details@Concurrency@@@23@@Z{
+BB_42c3f9->BB_42c40f
+BB_42c3f9->BB_42c421
+BB_42c40f->BB_42c41b
+BB_42c41b->BB_42c421
+BB_42c41b->BB_42c42e
+BB_42c421->BB_42c42e
+}

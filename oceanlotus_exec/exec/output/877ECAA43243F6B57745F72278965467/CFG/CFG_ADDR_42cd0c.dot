@@ -1,0 +1,7 @@
+DiGraph ?InvokeAtNextSafePoint@SafePointInvocation@details@Concurrency@@QAEXP6AXPAX@Z0PAVSchedulerBase@23@@Z{
+BB_42cd0c->BB_42cd1f
+BB_42cd0c->BB_42cd28
+BB_42cd1f->BB_42cd25
+BB_42cd25->BB_42cd3b
+BB_42cd28->BB_42cd3b
+}

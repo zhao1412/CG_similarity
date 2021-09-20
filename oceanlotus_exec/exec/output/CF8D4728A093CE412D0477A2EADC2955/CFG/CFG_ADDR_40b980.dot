@@ -1,0 +1,22 @@
+DiGraph sub_40B980{
+BB_40b980->BB_40b9b5
+BB_40b9b5->BB_40b9b8
+BB_40b9b5->BB_40b9ee
+BB_40b9b8->BB_40b9bd
+BB_40b9b8->BB_40ba0d
+BB_40b9bd->BB_40b9c5
+BB_40b9bd->BB_40b9e0
+BB_40b9bd->BB_40b9ee
+BB_40b9c5->BB_40b9de
+BB_40b9de->BB_40b9e0
+BB_40b9e0->BB_40b9e3
+BB_40b9e3->BB_40b9b8
+BB_40b9e3->BB_40b9ee
+BB_40b9ee->BB_40b9f8
+BB_40b9ee->BB_40ba04
+BB_40b9f8->BB_40b9fd
+BB_40b9fd->BB_40b9f8
+BB_40b9fd->BB_40ba04
+BB_40ba04->BB_40ba0d
+BB_4202e0->BB_4011a0
+}

@@ -1,0 +1,12 @@
+DiGraph __isatty{
+BB_42ef7c->BB_42ef87
+BB_42ef7c->BB_42ef94
+BB_42ef87->BB_42ef8c
+BB_42ef8c->BB_42efcc
+BB_42ef94->BB_42ef98
+BB_42ef94->BB_42efbc
+BB_42ef98->BB_42efa0
+BB_42ef98->BB_42efbc
+BB_42efbc->BB_42efc1
+BB_42efc1->BB_42efcc
+}

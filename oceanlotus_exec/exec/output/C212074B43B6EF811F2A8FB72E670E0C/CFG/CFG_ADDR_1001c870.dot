@@ -1,0 +1,11 @@
+DiGraph ?FindGroupAffinity@AffinityRestriction@ResourceManager@details@Concurrency@@QAEPAUHardwareAffinity@34@G@Z{
+BB_1001c870->BB_1001c881
+BB_1001c870->BB_1001c89b
+BB_1001c881->BB_1001c888
+BB_1001c888->BB_1001c895
+BB_1001c888->BB_1001c8a3
+BB_1001c895->BB_1001c888
+BB_1001c895->BB_1001c89b
+BB_1001c89b->BB_1001c89d
+BB_1001c8a3->BB_1001c89d
+}

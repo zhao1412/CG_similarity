@@ -1,0 +1,10 @@
+{
+    "FunctionCount":1,
+    "FunctionList":[
+        {
+            "EndAddress":"0x10001391",
+            "FunctionName":"DllEntryPoint",
+            "StartAddress":"0x1000138b"
+        }
+    ]
+}

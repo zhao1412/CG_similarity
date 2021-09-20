@@ -1,0 +1,5 @@
+DiGraph ?InvokeOnSafePoint@SchedulerBase@details@Concurrency@@AAEXPAVSafePointInvocation@23@@Z{
+BB_10020c1a->BB_10020c2f
+BB_10020c2f->BB_10020c36
+BB_10020c36->BB_10020c57
+}

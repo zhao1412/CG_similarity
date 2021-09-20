@@ -1,0 +1,7 @@
+DiGraph ?GetLoggerHandle@Etw@details@Concurrency@@QAE_KPAX@Z{
+BB_4371ce->BB_4371dd
+BB_4371dd->BB_4371e1
+BB_4371dd->BB_4371ec
+BB_4371e1->BB_4371e7
+BB_4371ec->BB_4371f4
+}

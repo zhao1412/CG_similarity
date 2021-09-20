@@ -1,0 +1,8 @@
+DiGraph ?GetNextVirtualProcessor@SchedulingNode@details@Concurrency@@QAEPAVVirtualProcessor@23@PAHH@Z{
+BB_42c382->BB_42c394
+BB_42c382->BB_42c3a5
+BB_42c394->BB_42c39f
+BB_42c39f->BB_42c3a5
+BB_42c39f->BB_42c3b1
+BB_42c3a5->BB_42c3b1
+}

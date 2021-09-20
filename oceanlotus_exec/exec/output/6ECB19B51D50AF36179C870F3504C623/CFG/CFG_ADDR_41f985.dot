@@ -1,0 +1,14 @@
+DiGraph _GetTableIndexFromLocaleName{
+BB_41f985->BB_41f992
+BB_41f992->BB_41f9ad
+BB_41f9ad->BB_41f9b4
+BB_41f9ad->BB_41f9c7
+BB_41f9b4->BB_41f9b6
+BB_41f9b4->BB_41f9bb
+BB_41f9b6->BB_41f9be
+BB_41f9bb->BB_41f9be
+BB_41f9be->BB_41f992
+BB_41f9be->BB_41f9c2
+BB_41f9c2->BB_41f9ce
+BB_41f9c7->BB_41f9ce
+}

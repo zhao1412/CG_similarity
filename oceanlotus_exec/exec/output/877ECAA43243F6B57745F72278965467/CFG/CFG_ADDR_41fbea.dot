@@ -1,0 +1,7 @@
+DiGraph ___crtGetLocaleInfoEx{
+BB_41fbea->BB_41fc06
+BB_41fbea->BB_41fc0a
+BB_41fc06->BB_41fc08
+BB_41fc0a->BB_41fc0f
+BB_41fc0f->BB_41fc17
+}

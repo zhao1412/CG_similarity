@@ -1,0 +1,21 @@
+DiGraph ?_GetRangeOfTrysToCheck@@YAPBU_s_TryBlockMapEntry@@PBU_s_FuncInfo@@HHPAI1@Z{
+BB_40ef04->BB_40ef48
+BB_40ef1d->BB_40ef22
+BB_40ef1d->BB_40ef27
+BB_40ef22->BB_40ef27
+BB_40ef27->BB_40ef38
+BB_40ef27->BB_40ef3d
+BB_40ef38->BB_40ef3d
+BB_40ef38->BB_40ef42
+BB_40ef3d->BB_40ef42
+BB_40ef3d->BB_40ef4b
+BB_40ef42->BB_40ef48
+BB_40ef48->BB_40ef4b
+BB_40ef4b->BB_40ef1d
+BB_40ef4b->BB_40ef51
+BB_40ef51->BB_40ef61
+BB_40ef51->BB_40ef65
+BB_40ef61->BB_40ef65
+BB_40ef61->BB_40ef6a
+BB_40ef65->BB_40ef6a
+}

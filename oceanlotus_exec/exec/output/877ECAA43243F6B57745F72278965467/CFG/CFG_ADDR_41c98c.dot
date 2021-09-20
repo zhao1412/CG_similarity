@@ -1,0 +1,17 @@
+DiGraph ?try_lock_for@critical_section@Concurrency@@QAE_NI@Z{
+BB_41c98c->BB_41c998
+BB_41c998->BB_41c9a1
+BB_41c9a1->BB_41c9ae
+BB_41c9a1->BB_41c9bc
+BB_41c9ae->BB_41c9b8
+BB_41c9b8->BB_41c9be
+BB_41c9bc->BB_41c9be
+BB_41c9be->BB_41c9cb
+BB_41c9cb->BB_41c9cf
+BB_41c9cb->BB_41c9d9
+BB_41c9cf->BB_41c9d7
+BB_41c9d7->BB_41c9d9
+BB_41c9d9->BB_41c9e0
+BB_41c9e0->BB_41c9e7
+BB_444035->BB_41907e
+}

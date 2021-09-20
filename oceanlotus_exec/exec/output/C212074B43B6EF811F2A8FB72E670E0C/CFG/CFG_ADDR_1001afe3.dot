@@ -1,0 +1,9 @@
+DiGraph ?ApplyAffinityRestrictions@ResourceManager@details@Concurrency@@CAXPAU_GROUP_AFFINITY@@@Z{
+BB_1001afe3->BB_1001afee
+BB_1001afe3->BB_1001b008
+BB_1001afee->BB_1001aff8
+BB_1001afee->BB_1001b002
+BB_1001aff8->BB_1001b002
+BB_1001aff8->BB_1001b008
+BB_1001b002->BB_1001b008
+}

@@ -1,0 +1,26 @@
+DiGraph sub_40EB20{
+BB_40eb20->BB_40eb32
+BB_40eb20->BB_40eb5a
+BB_40eb32->BB_40eb48
+BB_40eb48->BB_40eb52
+BB_40eb48->BB_40eb5a
+BB_40eb5a->BB_40eb5f
+BB_40eb5a->BB_40eb72
+BB_40eb5f->BB_40eb72
+BB_40eb72->BB_40eb79
+BB_40eb72->BB_40eb9c
+BB_40eb79->BB_40eb89
+BB_40eb9c->BB_40eba5
+BB_40eb9c->BB_40eba7
+BB_40eba5->BB_40eba7
+BB_40eba7->BB_40ebba
+BB_40ebba->BB_40ebc1
+BB_40ebba->BB_40ebe4
+BB_40ebc1->BB_40ebd1
+BB_40ebe4->BB_40ebef
+BB_40ebe4->BB_40ebf6
+BB_40ebef->BB_40ebf6
+BB_40ebf6->BB_40ebfd
+BB_40ebf6->BB_40ec02
+BB_40ebfd->BB_40ec02
+}

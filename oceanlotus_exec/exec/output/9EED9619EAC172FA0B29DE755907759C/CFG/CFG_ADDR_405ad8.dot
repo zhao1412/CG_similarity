@@ -1,0 +1,16 @@
+DiGraph ?CatchIt@@YAXPAUEHExceptionRecord@@PAUEHRegistrationNode@@PAU_CONTEXT@@PAXPBU_s_FuncInfo@@PBU_s_HandlerType@@PBU_s_CatchableType@@PBU_s_TryBlockMapEntry@@H1E@Z{
+BB_405ad8->BB_405ae5
+BB_405ad8->BB_405af7
+BB_405ae5->BB_405af4
+BB_405af4->BB_405af7
+BB_405af7->BB_405b00
+BB_405af7->BB_405b03
+BB_405b00->BB_405b06
+BB_405b03->BB_405b06
+BB_405b06->BB_405b0b
+BB_405b0b->BB_405b1d
+BB_405b1d->BB_405b41
+BB_405b41->BB_405b49
+BB_405b41->BB_405b50
+BB_405b49->BB_405b50
+}

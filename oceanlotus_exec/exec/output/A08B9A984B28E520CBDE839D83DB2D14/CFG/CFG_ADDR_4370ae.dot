@@ -1,0 +1,7 @@
+DiGraph ?GetLoggerHandle@Etw@details@Concurrency@@QAE_KPAX@Z{
+BB_4370ae->BB_4370bd
+BB_4370bd->BB_4370c1
+BB_4370bd->BB_4370cc
+BB_4370c1->BB_4370c7
+BB_4370cc->BB_4370d4
+}

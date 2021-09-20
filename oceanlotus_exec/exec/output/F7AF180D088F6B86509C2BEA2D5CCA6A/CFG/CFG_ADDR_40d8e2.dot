@@ -1,0 +1,6 @@
+DiGraph ___initmbctable{
+BB_40d8e2->BB_40d8eb
+BB_40d8e2->BB_40d8fd
+BB_40d8eb->BB_40d8f2
+BB_40d8f2->BB_40d8fd
+}

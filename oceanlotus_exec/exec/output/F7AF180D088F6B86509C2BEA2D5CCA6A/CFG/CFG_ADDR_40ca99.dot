@@ -1,0 +1,14 @@
+DiGraph __malloc_crt{
+BB_40ca99->BB_40caa2
+BB_40caa2->BB_40caaa
+BB_40caaa->BB_40cab1
+BB_40caaa->BB_40cad8
+BB_40cab1->BB_40cab9
+BB_40cab1->BB_40cad8
+BB_40cab9->BB_40cac0
+BB_40cac0->BB_40cace
+BB_40cac0->BB_40cad1
+BB_40cace->BB_40cad1
+BB_40cad1->BB_40caa2
+BB_40cad1->BB_40cad8
+}

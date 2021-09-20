@@ -1,0 +1,14 @@
+DiGraph __calloc_crt{
+BB_40cade->BB_40cae7
+BB_40cae7->BB_40caf4
+BB_40caf4->BB_40cafd
+BB_40caf4->BB_40cb24
+BB_40cafd->BB_40cb05
+BB_40cafd->BB_40cb24
+BB_40cb05->BB_40cb0c
+BB_40cb0c->BB_40cb1a
+BB_40cb0c->BB_40cb1d
+BB_40cb1a->BB_40cb1d
+BB_40cb1d->BB_40cae7
+BB_40cb1d->BB_40cb24
+}

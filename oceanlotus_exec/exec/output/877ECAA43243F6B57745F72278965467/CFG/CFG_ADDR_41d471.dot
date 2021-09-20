@@ -1,0 +1,13 @@
+DiGraph ?wait@_Condition_variable@details@Concurrency@@QAEXAAVcritical_section@3@@Z{
+BB_41d471->BB_41d47d
+BB_41d47d->BB_41d489
+BB_41d489->BB_41d495
+BB_41d495->BB_41d4a2
+BB_41d4a2->BB_41d4b4
+BB_41d4b4->BB_41d4c0
+BB_41d4c0->BB_41d4c5
+BB_41d4c5->BB_41d4cd
+BB_41d4cd->BB_41d4d2
+BB_444120->BB_41c34a
+BB_444139->BB_41907e
+}

@@ -1,0 +1,13 @@
+DiGraph ?TranslatorGuardHandler@@YA?AW4_EXCEPTION_DISPOSITION@@PAUEHExceptionRecord@@PAUTranslatorGuardRN@@PAX2@Z{
+BB_41b9a9->BB_41b9bf
+BB_41b9bf->BB_41b9ca
+BB_41b9bf->BB_41b9db
+BB_41b9ca->BB_41ba45
+BB_41b9d9->BB_41ba45
+BB_41b9db->BB_41ba02
+BB_41ba02->BB_41ba0e
+BB_41ba02->BB_41ba19
+BB_41ba0e->BB_41ba19
+BB_41ba19->BB_41ba31
+BB_41ba42->BB_41ba45
+}

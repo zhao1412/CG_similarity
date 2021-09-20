@@ -1,0 +1,9 @@
+DiGraph __get_errno_from_oserr{
+BB_4015ca->BB_4015d2
+BB_4015d2->BB_4015db
+BB_4015d2->BB_401602
+BB_4015db->BB_4015d2
+BB_4015db->BB_4015e1
+BB_4015e1->BB_4015e9
+BB_4015e1->BB_4015ee
+}

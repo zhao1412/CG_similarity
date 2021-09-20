@@ -1,0 +1,6 @@
+DiGraph ?_SetSpinCount@?$_SpinWait@$00@details@Concurrency@@QAEXI@Z{
+BB_10018e97->BB_10018ea1
+BB_10018e97->BB_10018eaa
+BB_10018ea1->BB_10018eb5
+BB_10018eaa->BB_10018eb5
+}

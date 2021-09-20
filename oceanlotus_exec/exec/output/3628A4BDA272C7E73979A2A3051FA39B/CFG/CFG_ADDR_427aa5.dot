@@ -1,0 +1,6 @@
+DiGraph ?GetNextGlobalCore@GlobalNode@details@Concurrency@@QAEPAUGlobalCore@23@PBU423@@Z{
+BB_427aa5->BB_427abc
+BB_427aa5->BB_427ac4
+BB_427abc->BB_427ac6
+BB_427ac4->BB_427ac6
+}

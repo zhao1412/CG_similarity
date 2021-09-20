@@ -1,0 +1,9 @@
+DiGraph __get_errno_from_oserr{
+BB_408e3a->BB_408e44
+BB_408e44->BB_408e4d
+BB_408e44->BB_408e60
+BB_408e4d->BB_408e44
+BB_408e4d->BB_408e53
+BB_408e53->BB_408e5b
+BB_408e53->BB_408e69
+}

@@ -1,0 +1,15 @@
+DiGraph sub_12DC190{
+BB_12dc190->BB_12dc1a0
+BB_12dc190->BB_12dc1df
+BB_12dc1a0->BB_12dc1a8
+BB_12dc1a0->BB_12dc1df
+BB_12dc1a8->BB_12dc1b2
+BB_12dc1a8->BB_12dc1b4
+BB_12dc1b2->BB_12dc1b4
+BB_12dc1b4->BB_12dc1be
+BB_12dc1b4->BB_12dc1c0
+BB_12dc1be->BB_12dc1c0
+BB_12dc1c0->BB_12dc1d1
+BB_12dc1d1->BB_12dc1a0
+BB_12dc1d1->BB_12dc1df
+}

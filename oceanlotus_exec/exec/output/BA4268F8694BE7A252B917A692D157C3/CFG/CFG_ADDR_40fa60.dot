@@ -1,0 +1,20 @@
+DiGraph sub_40FA60{
+BB_40fa60->BB_40fa75
+BB_40fa60->BB_40fa7d
+BB_40fa7d->BB_40faaa
+BB_40fa7d->BB_40fabd
+BB_40faaa->BB_40fab1
+BB_40faaa->BB_40faee
+BB_40fab1->BB_40faee
+BB_40fabd->BB_40fac2
+BB_40fac2->BB_40facd
+BB_40fac2->BB_40fae0
+BB_40facd->BB_40fad8
+BB_40facd->BB_40fae7
+BB_40fad8->BB_40fac2
+BB_40fad8->BB_40fade
+BB_40fade->BB_40faee
+BB_40fae0->BB_40faec
+BB_40fae7->BB_40faec
+BB_40faec->BB_40faee
+}

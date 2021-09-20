@@ -1,0 +1,6 @@
+DiGraph ___crtInitializeCriticalSectionEx{
+BB_404e72->BB_404e82
+BB_404e72->BB_404e8f
+BB_404e82->BB_404e8d
+BB_404e8f->BB_404e9b
+}

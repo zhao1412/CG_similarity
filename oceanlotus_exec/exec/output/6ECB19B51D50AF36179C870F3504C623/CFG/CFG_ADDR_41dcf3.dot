@@ -1,0 +1,11 @@
+DiGraph ?__RegisterWaitForSingleObject@platform@details@Concurrency@@YAPAXPAXP6GX0E@Z0@Z{
+BB_41dcf3->BB_41dd10
+BB_41dd10->BB_41dd14
+BB_41dd10->BB_41dd20
+BB_41dd14->BB_41dd1a
+BB_41dd1a->BB_41dd1e
+BB_41dd1a->BB_41dd2f
+BB_41dd1e->BB_41dd27
+BB_41dd27->BB_41dd2f
+BB_41dd2f->BB_41dd38
+}

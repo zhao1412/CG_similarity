@@ -1,0 +1,9 @@
+DiGraph __init_pointers{
+BB_417be4->BB_417bec
+BB_417bec->BB_417bf4
+BB_417bf4->BB_417bfa
+BB_417bfa->BB_417c00
+BB_417c00->BB_417c06
+BB_417c06->BB_417c0c
+BB_417c0c->BB_417c12
+}

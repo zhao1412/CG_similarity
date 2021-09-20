@@ -1,0 +1,12 @@
+DiGraph _GetTableIndexFromLcid{
+BB_41fa70->BB_41fa7b
+BB_41fa7b->BB_41fa8f
+BB_41fa7b->BB_41faa2
+BB_41fa8f->BB_41fa93
+BB_41fa8f->BB_41fa98
+BB_41fa93->BB_41fa9b
+BB_41fa98->BB_41fa9b
+BB_41fa9b->BB_41fa7b
+BB_41fa9b->BB_41fa9f
+BB_41fa9f->BB_41faa2
+}

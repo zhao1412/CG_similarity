@@ -1,0 +1,25 @@
+DiGraph ?__GetLogicalProcessorInformation@platform@details@Concurrency@@YAPAU_SYSTEM_LOGICAL_PROCESSOR_INFORMATION@@PAK@Z{
+BB_41dbfe->BB_41dc13
+BB_41dc13->BB_41dc1b
+BB_41dc1b->BB_41dc20
+BB_41dc1b->BB_41dc28
+BB_41dc20->BB_41dc22
+BB_41dc22->BB_41dc26
+BB_41dc22->BB_41dc81
+BB_41dc26->BB_41dc79
+BB_41dc28->BB_41dc2f
+BB_41dc2f->BB_41dc36
+BB_41dc2f->BB_41dc5c
+BB_41dc36->BB_41dc4b
+BB_41dc4b->BB_41dc92
+BB_41dc5c->BB_41dc64
+BB_41dc64->BB_41dc68
+BB_41dc64->BB_41dc70
+BB_41dc68->BB_41dc6a
+BB_41dc6a->BB_41dc6e
+BB_41dc6a->BB_41dc81
+BB_41dc6e->BB_41dc79
+BB_41dc79->BB_41dc81
+BB_41dc81->BB_41dc8a
+BB_41dc8a->BB_41dc92
+}

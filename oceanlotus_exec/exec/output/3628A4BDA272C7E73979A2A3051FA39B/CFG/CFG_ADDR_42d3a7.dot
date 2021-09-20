@@ -1,0 +1,15 @@
+DiGraph ?VirtualProcessorIdle@SchedulerBase@details@Concurrency@@QAEX_N@Z{
+BB_42d3a7->BB_42d3b2
+BB_42d3b2->BB_42d3be
+BB_42d3b2->BB_42d3db
+BB_42d3be->BB_42d3ce
+BB_42d3be->BB_42d3fb
+BB_42d3ce->BB_42d3d2
+BB_42d3ce->BB_42d3fb
+BB_42d3d2->BB_42d3d9
+BB_42d3d9->BB_42d3fb
+BB_42d3db->BB_42d3eb
+BB_42d3db->BB_42d3fb
+BB_42d3eb->BB_42d3fb
+BB_42d3fb->BB_42d400
+}

@@ -1,0 +1,12 @@
+DiGraph sub_406E90{
+BB_406e90->BB_406ea3
+BB_406e90->BB_406ef4
+BB_406ea3->BB_406eaf
+BB_406ea3->BB_406ec7
+BB_406eaf->BB_406ebc
+BB_406ebc->BB_406ec7
+BB_406ebc->BB_406ef4
+BB_406ec7->BB_406ed0
+BB_406ed0->BB_406edf
+BB_406edf->BB_406ef4
+}

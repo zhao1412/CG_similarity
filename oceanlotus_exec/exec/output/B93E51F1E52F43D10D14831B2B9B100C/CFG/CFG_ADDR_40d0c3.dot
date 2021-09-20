@@ -1,0 +1,13 @@
+DiGraph __isatty{
+BB_40d0c3->BB_40d0d0
+BB_40d0c3->BB_40d0df
+BB_40d0d0->BB_40d0d5
+BB_40d0d5->BB_40d0db
+BB_40d0df->BB_40d0e3
+BB_40d0df->BB_40d0eb
+BB_40d0e3->BB_40d0eb
+BB_40d0e3->BB_40d0fd
+BB_40d0eb->BB_40d0f0
+BB_40d0f0->BB_40d0fb
+BB_40d0fb->BB_40d0db
+}

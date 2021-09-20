@@ -1,0 +1,8 @@
+DiGraph ?SpinUntilIdle@FreeVirtualProcessorRoot@details@Concurrency@@IAEXXZ{
+BB_1002c2f5->BB_1002c31a
+BB_1002c30d->BB_1002c312
+BB_1002c30d->BB_1002c31f
+BB_1002c312->BB_1002c31a
+BB_1002c31a->BB_1002c30d
+BB_1002c31a->BB_1002c31f
+}

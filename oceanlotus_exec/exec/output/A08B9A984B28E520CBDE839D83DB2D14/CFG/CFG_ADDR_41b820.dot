@@ -1,0 +1,5 @@
+DiGraph ___crtGetTickCount64{
+BB_41b820->BB_41b82d
+BB_41b820->BB_41b82f
+BB_41b82f->BB_41b835
+}

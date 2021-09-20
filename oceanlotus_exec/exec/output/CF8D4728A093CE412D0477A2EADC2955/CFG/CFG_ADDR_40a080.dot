@@ -1,0 +1,18 @@
+DiGraph sub_40A080{
+BB_40a080->BB_40a0a1
+BB_40a080->BB_40a0ab
+BB_40a0a1->BB_40a0a7
+BB_40a0a1->BB_40a0ab
+BB_40a0a7->BB_40a0ab
+BB_40a0ab->BB_40a0c5
+BB_40a0ab->BB_40a0cf
+BB_40a0c5->BB_40a0cb
+BB_40a0c5->BB_40a0cf
+BB_40a0cb->BB_40a0cf
+BB_40a0cf->BB_40a0e9
+BB_40a0cf->BB_40a0f3
+BB_40a0e9->BB_40a0ef
+BB_40a0e9->BB_40a0f3
+BB_40a0ef->BB_40a0f3
+BB_40a0f3->BB_40a0fe
+}

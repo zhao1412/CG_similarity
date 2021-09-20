@@ -1,0 +1,22 @@
+DiGraph ?InitializeRMBuffers@ResourceManager@details@Concurrency@@AAEXXZ{
+BB_428d7a->BB_428d88
+BB_428d7a->BB_428dfe
+BB_428d88->BB_428d88
+BB_428d88->BB_428d8f
+BB_428d8f->BB_428d9b
+BB_428d9b->BB_428da3
+BB_428da3->BB_428dab
+BB_428dab->BB_428dc2
+BB_428dc2->BB_428dcd
+BB_428dc2->BB_428dfd
+BB_428dcd->BB_428de1
+BB_428de1->BB_428df8
+BB_428df8->BB_428dfd
+BB_428dfd->BB_428dfe
+BB_428dfe->BB_428e0e
+BB_428e0e->BB_428e16
+BB_428e0e->BB_428e39
+BB_428e16->BB_428e26
+BB_428e26->BB_428e36
+BB_428e36->BB_428e39
+}

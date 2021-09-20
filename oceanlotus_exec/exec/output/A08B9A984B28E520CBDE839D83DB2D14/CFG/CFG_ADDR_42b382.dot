@@ -1,0 +1,6 @@
+DiGraph ?AddTail@?$List@VWaitNode@SchedulerBase@details@Concurrency@@VNoCount@CollectionTypes@34@@details@Concurrency@@QAEXPAVWaitNode@SchedulerBase@23@@Z{
+BB_42b382->BB_42b38e
+BB_42b382->BB_42b395
+BB_42b38e->BB_42b3a9
+BB_42b395->BB_42b3a9
+}

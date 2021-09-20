@@ -1,0 +1,19 @@
+{
+    "Section":[
+        {
+            "EndAddress":"0x10011829",
+            "Name":"CODE",
+            "StartAddress":"0x10001000"
+        },
+        {
+            "EndAddress":"0x1001182d",
+            "Name":".idata",
+            "StartAddress":"0x10011829"
+        },
+        {
+            "EndAddress":"0x10529000",
+            "Name":"CODE",
+            "StartAddress":"0x1001182d"
+        }
+    ]
+}

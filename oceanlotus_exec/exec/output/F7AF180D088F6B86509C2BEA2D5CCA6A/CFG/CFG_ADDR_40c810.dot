@@ -1,0 +1,11 @@
+DiGraph __IsNonwritableInCurrentImage{
+BB_40c810->BB_40c845
+BB_40c845->BB_40c856
+BB_40c856->BB_40c85d
+BB_40c856->BB_40c8ae
+BB_40c856->BB_40c8b1
+BB_40c85d->BB_40c870
+BB_40c870->BB_40c877
+BB_40c870->BB_40c8b1
+BB_40c8ae->BB_40c8b1
+}

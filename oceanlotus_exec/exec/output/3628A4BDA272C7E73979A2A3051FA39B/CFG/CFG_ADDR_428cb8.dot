@@ -1,0 +1,10 @@
+DiGraph ?RegisterScheduler@ResourceManager@details@Concurrency@@UAEPAUISchedulerProxy@3@PAUIScheduler@3@I@Z{
+BB_428cb8->BB_428cc4
+BB_428cb8->BB_428ce4
+BB_428cc4->BB_428ccd
+BB_428cc4->BB_428cd6
+BB_428ccd->BB_428ceb
+BB_428cd6->BB_428cde
+BB_428ce4->BB_428ceb
+BB_428ceb->BB_428cf7
+}

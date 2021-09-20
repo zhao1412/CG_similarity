@@ -1,0 +1,10 @@
+DiGraph sub_402E40{
+BB_402e40->BB_402ea0
+BB_402ea0->BB_402ea0
+BB_402ea0->BB_402ea8
+BB_402ea8->BB_402ec2
+BB_402ec2->BB_402ec2
+BB_402ec2->BB_402eca
+BB_402eca->BB_402ee2
+BB_402ee2->BB_402ef1
+}

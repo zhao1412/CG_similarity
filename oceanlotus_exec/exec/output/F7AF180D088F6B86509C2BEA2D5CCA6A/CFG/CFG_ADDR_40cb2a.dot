@@ -1,0 +1,16 @@
+DiGraph __realloc_crt{
+BB_40cb2a->BB_40cb33
+BB_40cb33->BB_40cb3e
+BB_40cb3e->BB_40cb46
+BB_40cb3e->BB_40cb72
+BB_40cb46->BB_40cb4b
+BB_40cb46->BB_40cb72
+BB_40cb4b->BB_40cb53
+BB_40cb4b->BB_40cb72
+BB_40cb53->BB_40cb5a
+BB_40cb5a->BB_40cb68
+BB_40cb5a->BB_40cb6b
+BB_40cb68->BB_40cb6b
+BB_40cb6b->BB_40cb33
+BB_40cb6b->BB_40cb72
+}

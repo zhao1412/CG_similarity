@@ -1,0 +1,9 @@
+DiGraph _write_char{
+BB_40a1e1->BB_40a1ec
+BB_40a1e1->BB_40a1f2
+BB_40a1ec->BB_40a1f2
+BB_40a1ec->BB_40a20c
+BB_40a1f2->BB_40a1fb
+BB_40a1fb->BB_40a207
+BB_40a1fb->BB_40a20c
+}

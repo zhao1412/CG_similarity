@@ -1,0 +1,19 @@
+DiGraph ___set_fpsr_sse2{
+BB_422b9a->BB_422ba6
+BB_422ba6->BB_422baf
+BB_422ba6->BB_422c0a
+BB_422baf->BB_422bb6
+BB_422baf->BB_422c00
+BB_422bb6->BB_422bbf
+BB_422bb6->BB_422c00
+BB_422bbf->BB_422be5
+BB_422bbf->BB_422bf7
+BB_422bc9->BB_422bd6
+BB_422bc9->BB_422be1
+BB_422bd6->BB_422bde
+BB_422bd6->BB_422be1
+BB_422be5->BB_422bf7
+BB_422bf7->BB_422c0a
+BB_422c00->BB_422c0a
+BB_422c0a->BB_422c0f
+}

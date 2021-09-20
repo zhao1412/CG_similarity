@@ -1,0 +1,13 @@
+DiGraph sub_12DE800{
+BB_12de800->BB_12de84a
+BB_12de84a->BB_12de84e
+BB_12de84a->BB_12de88c
+BB_12de84e->BB_12de85a
+BB_12de85a->BB_12de861
+BB_12de85a->BB_12de87d
+BB_12de861->BB_12de86a
+BB_12de86a->BB_12de873
+BB_12de86a->BB_12de88b
+BB_12de87d->BB_12de88b
+BB_12de88b->BB_12de88c
+}

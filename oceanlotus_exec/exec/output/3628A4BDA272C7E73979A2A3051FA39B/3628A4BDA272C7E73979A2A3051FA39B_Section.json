@@ -1,0 +1,24 @@
+{
+    "Section":[
+        {
+            "EndAddress":"0x445000",
+            "Name":".text",
+            "StartAddress":"0x401000"
+        },
+        {
+            "EndAddress":"0x4451c0",
+            "Name":".idata",
+            "StartAddress":"0x445000"
+        },
+        {
+            "EndAddress":"0x452000",
+            "Name":".rdata",
+            "StartAddress":"0x4451c0"
+        },
+        {
+            "EndAddress":"0x459000",
+            "Name":".data",
+            "StartAddress":"0x452000"
+        }
+    ]
+}

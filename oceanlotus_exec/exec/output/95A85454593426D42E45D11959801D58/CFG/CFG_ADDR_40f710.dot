@@ -1,0 +1,7 @@
+DiGraph sub_40F710{
+BB_40f710->BB_40f71e
+BB_40f71e->BB_40f724
+BB_40f71e->BB_40f72e
+BB_40f724->BB_40f72c
+BB_40f72c->BB_40f72e
+}

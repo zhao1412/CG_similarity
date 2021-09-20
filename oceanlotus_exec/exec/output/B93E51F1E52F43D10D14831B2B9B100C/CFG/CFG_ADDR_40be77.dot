@@ -1,0 +1,22 @@
+DiGraph ___updatetlocinfo{
+BB_40be77->BB_40be83
+BB_40be83->BB_40be88
+BB_40be88->BB_40be94
+BB_40be88->BB_40beb6
+BB_40be94->BB_40be9a
+BB_40be94->BB_40beb6
+BB_40be9a->BB_40be9f
+BB_40be9f->BB_40bea2
+BB_40bea2->BB_40bea6
+BB_40bea2->BB_40beae
+BB_40bea6->BB_40bead
+BB_40bead->BB_40beae
+BB_40beae->BB_40beb5
+BB_40beb6->BB_40bebd
+BB_40bebd->BB_40bed1
+BB_40bed1->BB_40bee2
+BB_40bee2->BB_40bea2
+BB_40bee2->BB_40bee4
+BB_40bee4->BB_40beeb
+BB_40beeb->BB_40bee2
+}
