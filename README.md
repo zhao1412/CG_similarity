@@ -16,7 +16,7 @@
 7. features文件夹
    * 说明：包含的./oceanlotus_cgvec.csv是graph2vec的输出文件，包含代码的CG向量。
 8. vec_simi_analysis.py
-   * 说明：分析向量间的相似性关系，输出为result.txt。分析算法见**算法说明**。使用方式见**脚本使用**。
+   * 说明：分析向量间的相似性关系，输出为result.txt。分析算法见**算法使用**。使用方式见**脚本使用**。
 
 # 算法说明
 
@@ -41,5 +41,6 @@
    * 由于只是注释掉了BasicBlockAnalyzer_linux.py中的line 743，line 797，line 798，以保证脚本不止接收elf文件。在对海莲花代码进行分析时，有时会出现Error，不过出现Error时CG图都已生成，故我没有管这个Error。
 2. D1E6文件
    * 以D1E6为名开始的代码，由于其生成的CG图为空，故做相似性分析时删掉了这个文件。
+   * 当代码文件的CG图的边数小于等于1时，dotintojson_mod.py会在命令行弹出提示，说明该代码文件不会被转换为json格式。
 3. 代码编写
    * 由于太久没有使用Python而且对Python文件处理不熟悉所以花掉了很多时间写dot转json的代码。现在写Python稍微习惯了一些，也掌握了一些库函数的使用，谢谢老师。
