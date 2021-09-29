@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import argparse
 
 # walk through CG files rooted in branch_directory and copy the content of dot file inspectively into the corresponding json file in main_directory
 def copy_dot_into_json(main_directory, branch_directory):
@@ -15,18 +16,19 @@ def copy_dot_into_json(main_directory, branch_directory):
                                 different malicious codes' 
                                 analysis directories
     """
-
+    cgtrue = False
     for root, dirs, files in os.walk(branch_directory):
         split_path = os.path.split(root)
         head = split_path[0]
         tail = split_path[1]
         if tail == 'CG':
+            cgtrue = True
             try:
                 # 创建json文件
                 split_path_2 = os.path.split(head)
                 fp_json = open(main_directory + '\\' + split_path_2[1] + '.json', 'w+')
-            except OSError:
-                sys.exit('Error at opening file fucntion1!')
+            except OSError as err:
+                sys.exit('Error at creating json file in copy_dot_into_json()! Error is:' + format(err))
             
             try:
                 # dot文件内容拷贝进json
@@ -34,15 +36,16 @@ def copy_dot_into_json(main_directory, branch_directory):
                 dot_content = fp_dot.read()
                 fp_json.write(dot_content)
             except:
-                sys.exit('Error at copying file function1!')
+                sys.exit('Error at copying file in copy_dot_into_json()!')
             
             try:
                 # 关闭文件
                 fp_json.close()
                 fp_dot.close()
             except:
-                sys.exit('Error at closing file function1!')
-    
+                sys.exit('Error at closing file in copy_dot_into_json()!')
+    if cgtrue == False:
+        sys.exit(f'input path: {branch_directory}中未找到CG文件夹')
     return
 
 
@@ -82,13 +85,14 @@ def modify_json(main_directory):
     # 第6步中用来装CG图的顶点名称字符串的列表
     vertex_list = []
 
-
     for root, dirs, files in os.walk(main_directory):
+        if len(files) == 0:
+            sys.exit(f'output path: {main_directory}中没有json文件!')
         for file in files:
             try:
                 fp = open(f'{main_directory}\\{file}', 'r+')
             except OSError as err:
-                sys.exit('Error at opening file function2! Error is:' + format(err))
+                sys.exit('Error at opening file in modify_json()! Error is:' + format(err))
             json_content = fp.read()
 
             # 清空文件内容
@@ -110,12 +114,15 @@ def modify_json(main_directory):
             json_object = json.loads(json_content)
             # 6. (1)如果某图中边数小于等于一条，不做数字与字符串转换，打出文件名:
             if(len(json_object["edges"]) <= 1):
-                fp.write(json_content)
-                print(f'{fp.name} has edge not greater than 1, vertices\' form will not be transformed!')
+                print(f'{fp.name} has edge not greater than 1, vertices\' form will not be transformed and file will be deleted!')
                 try:
                     fp.close()
                 except:
-                    sys.exit('Error at closing file function2!')
+                    sys.exit('Error at closing file in modify_json()')
+                try:
+                    os.remove(f'{main_directory}\\{file}')
+                except:
+                    sys.exit('Error at deleting file in modify_json()')
                 continue
             # 6. (2)将顶点名称存入vertex_list
             for edge in json_object["edges"]:
@@ -140,7 +147,14 @@ def modify_json(main_directory):
     return
 
 # 主逻辑执行修改
-main_directory = 'C:\\task1\\graph2vec_venv\\oceanlotus_json'
-branch_directory = 'C:\\task1\\oceanlotus_exec\\exec\\output'
-copy_dot_into_json(main_directory, branch_directory)
-modify_json(main_directory)
+def dotintojson_mod():
+    parser = argparse.ArgumentParser()
+    # 定义选项参数
+    parser.add_argument('-i', '--input-path', required = True, help = 'input directory: 输入文件夹路径，即经过idapro分析的包含所有代码分析结果的output文件夹')
+    parser.add_argument('-o', '--output-path', required = True, help = 'output directory: 输出json文件的文件夹路径')
+    args = parser.parse_args()
+    copy_dot_into_json(args.output_path, args.input_path)
+    modify_json(args.output_path)
+
+if __name__ == '__main__':
+    dotintojson_mod()

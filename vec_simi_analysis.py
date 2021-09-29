@@ -1,5 +1,7 @@
+import sys
 import csv
 import numpy as np
+import argparse
 
 def read_vec(csv_path):
     """将CG向量表示为{"name" : "file/name", "vector" : [x0, x1, ..., x127]}
@@ -115,32 +117,50 @@ def bronk(r, p, x):
         p.remove(vertex)
         x.append(vertex)
 
+# 列出没一个向量的相似向量
+def list_similar_vector():
+    global write_str, bool_matrix, vec_list
+    for index in range(len(bool_matrix)):
+        write_str = write_str + f'\n{vec_list[index]["name"]}的相似文件有: \n'
+        for i in range(len(bool_matrix[index])):
+            if bool_matrix[index][i] == True:
+                write_str = write_str + f'    {vec_list[i]["name"]}\n'
 #############################################
 
-csv_path = 'C:\\task1\\graph2vec_venv\\features\\oceanlotus_cgvec.csv'
-output_path = 'C:\\task1\\graph2vec_venv\\result.txt'
-threshold = 0.8
-# 以上三个参数可以根据需求修改，分别对应向量csv文件的路径，结果输出路径和阈值
-vec_list = []
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-c', '--csv-path', required = True, help='graph2vec产生的csv文件路径')
+    parser.add_argument('-o', '--output-path',required = True, help = '分析结果的txt文件路径')
+    parser.add_argument('-t', '--threshold', type = float, required = True, help = '余弦距离相似度阈值，范围-1.0~1.0，超过该阈值被认为相似')
+    args = parser.parse_args()
+    if args.threshold < -1.0 or args.threshold > 1.0:
+        sys.exit('threshold应大于等于-1且小于等于1')
+    # csv_path = 'C:\\task1\\graph2vec_venv\\features\\oceanlotus_cgvec.csv'
+    # output_path = 'C:\\task1\\graph2vec_venv\\result.txt'
+    # threshold = 0.8
+    # 以上三个参数可以根据需求修改，分别对应向量csv文件的路径，结果输出路径和阈值
+    vec_list = []
 
-# 1. 读入向量数据。
-read_vec(csv_path)
+    # 1. 读入向量数据。
+    read_vec(args.csv_path)
 
-# 2. 计算描述向量间相似度的相似度矩阵，和其对应的二值化矩阵。
-similarity_matrix = simi_matrix(vec_list)
-bool_matrix = simi_bool_matrix(similarity_matrix, threshold)
+    # 2. 计算描述向量间相似度的相似度矩阵，和其对应的二值化矩阵。
+    similarity_matrix = simi_matrix(vec_list)
+    bool_matrix = simi_bool_matrix(similarity_matrix, args.threshold)
+    write_str = ''
+    list_similar_vector()
 
-# 3. 计算完全最大相似组
-# 3.1. 准备p集合
-vec_num = len(vec_list)
-p = []
-for vec_index in range(0, vec_num):
-    p.append(vec_index)
-# 3.2. 开始计算
-# write_str对bronk函数得到的结果做记录，最后写入文件
-write_str = '完全最大相似组有：\n'
-bronk([], p, [])
+    # 3. 计算完全最大相似组
+    # 3.1. 准备p集合
+    vec_num = len(vec_list)
+    p = []
+    for vec_index in range(0, vec_num):
+        p.append(vec_index)
+    # 3.2. 开始计算
+    # write_str对bronk函数得到的结果做记录，最后写入文件
+    write_str = write_str + '\n完全最大相似组有：\n'
+    bronk([], p, [])
 
-# 4. 结果写入文件
-with open(output_path, 'w+') as f:
-    f.write(write_str)
+    # 4. 结果写入文件
+    with open(args.output_path, 'w+') as f:
+        f.write(write_str)
